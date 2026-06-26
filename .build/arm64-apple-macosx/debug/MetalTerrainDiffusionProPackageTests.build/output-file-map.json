@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/MetalTerrainDiffusionProPackageTests.build/primary.swiftdeps"
+  },
+  "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/MetalTerrainDiffusionProPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/MetalTerrainDiffusionProPackageTests.build/runner.d",
+    "object": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/MetalTerrainDiffusionProPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/MetalTerrainDiffusionProPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/MetalTerrainDiffusionProPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/MetalTerrainDiffusionProPackageTests.build/runner.dia"
+  }
+}

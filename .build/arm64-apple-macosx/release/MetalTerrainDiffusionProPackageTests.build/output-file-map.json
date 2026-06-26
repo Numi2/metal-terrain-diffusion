@@ -1,0 +1,13 @@
+{
+  "": {
+    "dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusionProPackageTests.build/MetalTerrainDiffusionProPackageTests.d",
+    "object": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusionProPackageTests.build/MetalTerrainDiffusionProPackageTests.o",
+    "swift-dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusionProPackageTests.build/primary.swiftdeps"
+  },
+  "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusionProPackageTests.derived/runner.swift": {
+    "object": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusionProPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusionProPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusionProPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusionProPackageTests.build/runner.dia"
+  }
+}

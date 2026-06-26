@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/TerrainDiffusionCLI.build/primary.swiftdeps"
+  },
+  "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/TerrainDiffusionCLI/main.swift": {
+    "dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/TerrainDiffusionCLI.build/main.d",
+    "object": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/TerrainDiffusionCLI.build/main.swift.o",
+    "swiftmodule": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/TerrainDiffusionCLI.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/TerrainDiffusionCLI.build/main.swiftdeps",
+    "diagnostics": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/TerrainDiffusionCLI.build/main.dia"
+  }
+}

@@ -1,0 +1,3 @@
+module MetalTerrainDiffusion {
+    header "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/include/MetalTerrainDiffusion-Swift.h"
+}

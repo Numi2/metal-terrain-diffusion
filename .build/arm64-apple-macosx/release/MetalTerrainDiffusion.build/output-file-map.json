@@ -1,0 +1,97 @@
+{
+  "": {
+    "dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/MetalTerrainDiffusion.d",
+    "object": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/MetalTerrainDiffusion.o",
+    "swift-dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/primary.swiftdeps"
+  },
+  "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/MetalTerrainDiffusion/Denoiser.swift": {
+    "object": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/Denoiser.swift.o",
+    "swiftmodule": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/Denoiser~partial.swiftmodule",
+    "swift-dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/Denoiser.swiftdeps",
+    "diagnostics": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/Denoiser.dia"
+  },
+  "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/MetalTerrainDiffusion/Errors.swift": {
+    "object": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/Errors.swift.o",
+    "swiftmodule": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/Errors~partial.swiftmodule",
+    "swift-dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/Errors.swiftdeps",
+    "diagnostics": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/Errors.dia"
+  },
+  "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/MetalTerrainDiffusion/GraphRuntime.swift": {
+    "object": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/GraphRuntime.swift.o",
+    "swiftmodule": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/GraphRuntime~partial.swiftmodule",
+    "swift-dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/GraphRuntime.swiftdeps",
+    "diagnostics": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/GraphRuntime.dia"
+  },
+  "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/MetalTerrainDiffusion/InfiniteDiffusionEngine.swift": {
+    "object": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/InfiniteDiffusionEngine.swift.o",
+    "swiftmodule": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/InfiniteDiffusionEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/InfiniteDiffusionEngine.swiftdeps",
+    "diagnostics": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/InfiniteDiffusionEngine.dia"
+  },
+  "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/MetalTerrainDiffusion/KernelEncoder.swift": {
+    "object": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/KernelEncoder.swift.o",
+    "swiftmodule": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/KernelEncoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/KernelEncoder.swiftdeps",
+    "diagnostics": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/KernelEncoder.dia"
+  },
+  "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/MetalTerrainDiffusion/MetalContext.swift": {
+    "object": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/MetalContext.swift.o",
+    "swiftmodule": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/MetalContext~partial.swiftmodule",
+    "swift-dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/MetalContext.swiftdeps",
+    "diagnostics": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/MetalContext.dia"
+  },
+  "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/MetalTerrainDiffusion/Region.swift": {
+    "object": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/Region.swift.o",
+    "swiftmodule": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/Region~partial.swiftmodule",
+    "swift-dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/Region.swiftdeps",
+    "diagnostics": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/Region.dia"
+  },
+  "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/MetalTerrainDiffusion/Scheduler.swift": {
+    "object": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/Scheduler.swift.o",
+    "swiftmodule": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/Scheduler~partial.swiftmodule",
+    "swift-dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/Scheduler.swiftdeps",
+    "diagnostics": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/Scheduler.dia"
+  },
+  "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/MetalTerrainDiffusion/SyntheticMap.swift": {
+    "object": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/SyntheticMap.swift.o",
+    "swiftmodule": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/SyntheticMap~partial.swiftmodule",
+    "swift-dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/SyntheticMap.swiftdeps",
+    "diagnostics": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/SyntheticMap.dia"
+  },
+  "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/MetalTerrainDiffusion/TensorShape.swift": {
+    "object": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/TensorShape.swift.o",
+    "swiftmodule": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/TensorShape~partial.swiftmodule",
+    "swift-dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/TensorShape.swiftdeps",
+    "diagnostics": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/TensorShape.dia"
+  },
+  "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/MetalTerrainDiffusion/TerrainDiffusionPipeline.swift": {
+    "object": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/TerrainDiffusionPipeline.swift.o",
+    "swiftmodule": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/TerrainDiffusionPipeline~partial.swiftmodule",
+    "swift-dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/TerrainDiffusionPipeline.swiftdeps",
+    "diagnostics": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/TerrainDiffusionPipeline.dia"
+  },
+  "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/MetalTerrainDiffusion/TerrainTransforms.swift": {
+    "object": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/TerrainTransforms.swift.o",
+    "swiftmodule": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/TerrainTransforms~partial.swiftmodule",
+    "swift-dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/TerrainTransforms.swiftdeps",
+    "diagnostics": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/TerrainTransforms.dia"
+  },
+  "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/MetalTerrainDiffusion/TileStore.swift": {
+    "object": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/TileStore.swift.o",
+    "swiftmodule": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/TileStore~partial.swiftmodule",
+    "swift-dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/TileStore.swiftdeps",
+    "diagnostics": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/TileStore.dia"
+  },
+  "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/MetalTerrainDiffusion/Windowing.swift": {
+    "object": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/Windowing.swift.o",
+    "swiftmodule": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/Windowing~partial.swiftmodule",
+    "swift-dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/Windowing.swiftdeps",
+    "diagnostics": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/Windowing.dia"
+  },
+  "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/DerivedSources/resource_bundle_accessor.swift": {
+    "object": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/resource_bundle_accessor.swiftdeps",
+    "diagnostics": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/release/MetalTerrainDiffusion.build/resource_bundle_accessor.dia"
+  }
+}

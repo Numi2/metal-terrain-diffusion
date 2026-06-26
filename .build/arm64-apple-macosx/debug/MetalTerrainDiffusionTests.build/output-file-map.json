@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/MetalTerrainDiffusionTests.build/primary.swiftdeps"
+  },
+  "/Users/home/Downloads/MetalTerrainDiffusionPro/Tests/MetalTerrainDiffusionTests/WindowingTests.swift": {
+    "dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/MetalTerrainDiffusionTests.build/WindowingTests.d",
+    "object": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/MetalTerrainDiffusionTests.build/WindowingTests.swift.o",
+    "swiftmodule": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/MetalTerrainDiffusionTests.build/WindowingTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/MetalTerrainDiffusionTests.build/WindowingTests.swiftdeps",
+    "diagnostics": "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/MetalTerrainDiffusionTests.build/WindowingTests.dia"
+  }
+}
