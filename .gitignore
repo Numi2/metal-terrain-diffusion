@@ -1,0 +1,6 @@
+.build/
+.derivedData/
+.swiftpm/
+DerivedData/
+__pycache__/
+*.pyc

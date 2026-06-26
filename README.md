@@ -50,6 +50,49 @@ The exporter writes:
 
 The provided exporter emits the archive schema consumed by `MetalGraphDenoiser`. For production checkpoints with attention or unfused residual blocks, lower the PyTorch model into the same op schema before export. The Swift runtime intentionally rejects unsupported graph ops instead of silently changing the network.
 
+## Train Anunaki terrain
+
+Anunaki can run with bundled archives from `Anunaki/AnunakiModels/` or with a developer override copied into the app Documents directory as `AnunakiModels/`. Until real archives exist, the app visibly reports `MODEL ARCHIVES MISSING` and uses the debug diffuser path.
+
+Install training dependencies:
+
+```bash
+python -m pip install -r Tools/anunaki/requirements.txt
+```
+
+Run the full Apple-local production pipeline from DEM GeoTIFFs to validated Metal archives:
+
+```bash
+ANUNAKI_MAX_CROPS=8192 \
+ANUNAKI_MIN_VARIANCE=0.002 \
+Tools/anunaki/run_production_training.sh \
+  "/path/to/dem/**/*.tif" \
+  /tmp/anunaki_training_work \
+  Anunaki/AnunakiModels
+```
+
+The script performs:
+
+- DEM crop extraction and alien-island augmentation.
+- Deterministic train/validation split.
+- Production training for coarse, base, and decoder deployable conv stacks.
+- Per-epoch JSONL metrics, checkpoints, and prediction/target/error sample PNGs.
+- MetalGraph export.
+- Swift runtime validation with finite-value and variance gates.
+
+For a fast CI/local pipeline check without DEM files:
+
+```bash
+python Tools/anunaki/make_smoke_dataset.py --out /tmp/anunaki_smoke_dataset.npz --samples 6
+python Tools/anunaki/train_anunaki_diffusion.py --config Tools/anunaki/configs/anunaki_smoke.yaml
+python Tools/anunaki/export_anunaki_to_metal.py \
+  --checkpoints /tmp/anunaki_smoke_run/checkpoints \
+  --out /tmp/anunaki_smoke_archives \
+  --validate
+```
+
+The training stack intentionally targets a deployable conv-only graph so exported archives match the current Metal runtime operators.
+
 ## Run
 
 ```bash
@@ -57,6 +100,17 @@ swift run terrain-diffusion-metal \
   --models /path/to/metal_archives \
   --cache /tmp/terrain-metal-cache \
   --x 0 --y 0 --width 1024 --height 1024 --seed 1234
+```
+
+To validate an archive set and print deterministic height statistics:
+
+```bash
+swift run terrain-diffusion-metal \
+  --models /path/to/metal_archives \
+  --width 512 --height 512 \
+  --validate-archives \
+  --require-finite \
+  --min-variance 0.002
 ```
 
 For a GPU/runtime smoke test without model archives:

@@ -6,6 +6,7 @@ let package = Package(
     platforms: [.macOS(.v14), .iOS(.v17)],
     products: [
         .library(name: "MetalTerrainDiffusion", targets: ["MetalTerrainDiffusion"]),
+        .library(name: "AnunakiGame", targets: ["AnunakiGame"]),
         .executable(name: "terrain-diffusion-metal", targets: ["TerrainDiffusionCLI"])
     ],
     targets: [
@@ -19,7 +20,16 @@ let package = Package(
                 .linkedFramework("Accelerate")
             ]
         ),
+        .target(
+            name: "AnunakiGame",
+            dependencies: ["MetalTerrainDiffusion"],
+            linkerSettings: [
+                .linkedFramework("SceneKit"),
+                .linkedFramework("SwiftUI")
+            ]
+        ),
         .executableTarget(name: "TerrainDiffusionCLI", dependencies: ["MetalTerrainDiffusion"]),
-        .testTarget(name: "MetalTerrainDiffusionTests", dependencies: ["MetalTerrainDiffusion"])
+        .testTarget(name: "MetalTerrainDiffusionTests", dependencies: ["MetalTerrainDiffusion"]),
+        .testTarget(name: "AnunakiGameTests", dependencies: ["AnunakiGame"])
     ]
 )

@@ -34,6 +34,325 @@
 
   ],
   "swiftCommands" : {
+    "C.AnunakiGame-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/sources",
+      "importPath" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiControls.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiFlightModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiGameController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiGameView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiHUD.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiSceneAssets.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiSceneCoordinator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiSceneView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiTerrainAppearance.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiTerrainGameplay.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiTerrainProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiTerrainSceneRenderer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiTerrainSource.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiTerrainTile.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/Modules/MetalTerrainDiffusion.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "AnunakiGame",
+      "moduleOutputPath" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/Modules/AnunakiGame.swiftmodule",
+      "objects" : [
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiControls.swift.o",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiFlightModel.swift.o",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiGameController.swift.o",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiGameView.swift.o",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiHUD.swift.o",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiSceneAssets.swift.o",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiSceneCoordinator.swift.o",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiSceneView.swift.o",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiTerrainAppearance.swift.o",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiTerrainGameplay.swift.o",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiTerrainProvider.swift.o",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiTerrainSceneRenderer.swift.o",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiTerrainSource.swift.o",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiTerrainTile.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/include/AnunakiGame-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "metalterraindiffusionpro"
+      ],
+      "outputFileMapPath" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiControls.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiFlightModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiGameController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiGameView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiHUD.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiSceneAssets.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiSceneCoordinator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiSceneView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiTerrainAppearance.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiTerrainGameplay.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiTerrainProvider.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiTerrainSceneRenderer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiTerrainSource.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiTerrainTile.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/Modules/AnunakiGame.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiControls.swift",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiFlightModel.swift",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiGameController.swift",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiGameView.swift",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiHUD.swift",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiSceneAssets.swift",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiSceneCoordinator.swift",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiSceneView.swift",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiTerrainAppearance.swift",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiTerrainGameplay.swift",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiTerrainProvider.swift",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiTerrainSceneRenderer.swift",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiTerrainSource.swift",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiTerrainTile.swift"
+      ],
+      "tempsPath" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.AnunakiGameTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGameTests.build/sources",
+      "importPath" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Tests/AnunakiGameTests/AnunakiFlightModelTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/Modules/AnunakiGame.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGameTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "AnunakiGameTests",
+      "moduleOutputPath" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/Modules/AnunakiGameTests.swiftmodule",
+      "objects" : [
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGameTests.build/AnunakiFlightModelTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "metalterraindiffusionpro"
+      ],
+      "outputFileMapPath" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGameTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGameTests.build/AnunakiFlightModelTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/Modules/AnunakiGameTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/home/Downloads/MetalTerrainDiffusionPro/Tests/AnunakiGameTests/AnunakiFlightModelTests.swift"
+      ],
+      "tempsPath" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGameTests.build",
+      "wholeModuleOptimization" : false
+    },
     "C.MetalTerrainDiffusion-arm64-apple-macosx-debug.module" : {
       "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
       "fileList" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/MetalTerrainDiffusion.build/sources",
@@ -285,6 +604,10 @@
         {
           "kind" : "file",
           "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/Modules/MetalTerrainDiffusionTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/Modules/AnunakiGameTests.swiftmodule"
         },
         {
           "kind" : "file",
@@ -558,6 +881,138 @@
 
   },
   "swiftTargetScanArgs" : {
+    "AnunakiGame" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "AnunakiGame",
+      "-package-name",
+      "metalterraindiffusionpro",
+      "-c",
+      "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiControls.swift",
+      "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiFlightModel.swift",
+      "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiGameController.swift",
+      "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiGameView.swift",
+      "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiHUD.swift",
+      "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiSceneAssets.swift",
+      "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiSceneCoordinator.swift",
+      "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiSceneView.swift",
+      "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiTerrainAppearance.swift",
+      "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiTerrainGameplay.swift",
+      "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiTerrainProvider.swift",
+      "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiTerrainSceneRenderer.swift",
+      "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiTerrainSource.swift",
+      "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiTerrainTile.swift",
+      "-I",
+      "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/include/AnunakiGame-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "metalterraindiffusionpro",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "AnunakiGameTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "AnunakiGameTests",
+      "-package-name",
+      "metalterraindiffusionpro",
+      "-c",
+      "/Users/home/Downloads/MetalTerrainDiffusionPro/Tests/AnunakiGameTests/AnunakiFlightModelTests.swift",
+      "-I",
+      "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "metalterraindiffusionpro",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
     "MetalTerrainDiffusion" : [
       "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
       "-module-name",
@@ -813,10 +1268,19 @@
     ]
   },
   "targetDependencyMap" : {
+    "AnunakiGame" : [
+      "MetalTerrainDiffusion"
+    ],
+    "AnunakiGameTests" : [
+      "AnunakiGame",
+      "MetalTerrainDiffusion"
+    ],
     "MetalTerrainDiffusion" : [
 
     ],
     "MetalTerrainDiffusionProPackageTests" : [
+      "AnunakiGameTests",
+      "AnunakiGame",
       "MetalTerrainDiffusionTests",
       "MetalTerrainDiffusion"
     ],
@@ -849,6 +1313,86 @@
     }
   },
   "writeCommands" : {
+    "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiControls.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiFlightModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiGameController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiGameView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiHUD.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiSceneAssets.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiSceneCoordinator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiSceneView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiTerrainAppearance.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiTerrainGameplay.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiTerrainProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiTerrainSceneRenderer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiTerrainSource.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Sources/AnunakiGame/AnunakiTerrainTile.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/sources"
+    },
+    "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGameTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/Tests/AnunakiGameTests/AnunakiFlightModelTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGameTests.build/sources"
+    },
     "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/MetalTerrainDiffusion.build/sources" : {
       "alwaysOutOfDate" : false,
       "inputs" : [
@@ -939,6 +1483,66 @@
         {
           "kind" : "virtual",
           "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiControls.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiFlightModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiGameController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiGameView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiHUD.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiSceneAssets.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiSceneCoordinator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiSceneView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiTerrainAppearance.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiTerrainGameplay.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiTerrainProvider.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiTerrainSceneRenderer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiTerrainSource.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGame.build/AnunakiTerrainTile.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/home/Downloads/MetalTerrainDiffusionPro/.build/arm64-apple-macosx/debug/AnunakiGameTests.build/AnunakiFlightModelTests.swift.o"
         },
         {
           "kind" : "file",

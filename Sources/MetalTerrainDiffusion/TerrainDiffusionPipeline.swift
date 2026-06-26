@@ -71,7 +71,7 @@ public final class TerrainDiffusionPipeline {
         try buildStages(
             coarse: IdentityDenoiser(name:"coarse.identity", channels:6, tileHeight:64, tileWidth:64),
             base: IdentityDenoiser(name:"base.identity", channels:5, tileHeight:64, tileWidth:64),
-            decoder: IdentityDenoiser(name:"decoder.identity", channels:6, tileHeight:configuration.decoderTileSize, tileWidth:configuration.decoderTileSize)
+            decoder: IdentityDenoiser(name:"decoder.identity", inputChannels:6, outputChannels:1, tileHeight:configuration.decoderTileSize, tileWidth:configuration.decoderTileSize)
         )
     }
 
@@ -105,7 +105,7 @@ public final class TerrainDiffusionPipeline {
             phase: DiffusionPhaseParameters(time: EDMScheduler().trigflowTime(sigma:80), seedOffset:5819, name:"latent.init"),
             conditioning: [ConditioningDependency(name:"coarse", tensorID:"coarse", window:latentCondWindow)],
             updateTime: EDMScheduler().trigflowTime(sigma:80),
-            legalBatchSizes: configuration.latentBatchSizes
+            legalBatchSizes: [1]
         )
         try engine.register(InfiniteTensorStage(tensorID:"latent_init", window:latentWindow, valueChannels:5, producer:initLatent))
 
@@ -121,7 +121,7 @@ public final class TerrainDiffusionPipeline {
                 phase: DiffusionPhaseParameters(time: EDMScheduler.paperLatentIntermediate(), seedOffset:5820, name:"latent.step0"),
                 conditioning: [ConditioningDependency(name:"coarse", tensorID:"coarse", window:latentCondWindow)],
                 updateTime: EDMScheduler.paperLatentIntermediate(),
-                legalBatchSizes: configuration.latentBatchSizes
+                legalBatchSizes: [1]
             )
             try engine.register(InfiniteTensorStage(tensorID:"latents", window:latentWindow, valueChannels:5, producer:stepLatent))
             finalLatentID = "latents"

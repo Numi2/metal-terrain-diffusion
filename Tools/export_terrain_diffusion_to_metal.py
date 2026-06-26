@@ -45,7 +45,16 @@ def write_tensor(root: pathlib.Path, name: str, tensor: torch.Tensor, normalize:
     return {"name": name, "shape": shape, "file": fn}
 
 
-def export_flat_conv_stack(model: torch.nn.Module, root: pathlib.Path, name: str, input_channels: int, output_channels: int, tile_size: int, legal_batch_sizes=(1,2,4,8,16)) -> None:
+def export_flat_conv_stack(
+    model: torch.nn.Module,
+    root: pathlib.Path,
+    name: str,
+    input_channels: int,
+    output_channels: int,
+    tile_size: int,
+    legal_batch_sizes=(1,2,4,8,16),
+    conditioning_name: str | None = None,
+) -> None:
     """
     Conservative lowering path: exports Conv-like MPConv modules in module traversal order.
     This is useful for deployment checkpoints that have already been fused/traced into a conv stack.
@@ -54,21 +63,22 @@ def export_flat_conv_stack(model: torch.nn.Module, root: pathlib.Path, name: str
     root.mkdir(parents=True, exist_ok=True)
     weights, ops = [], []
     prev = "input"
-    i = 0
-    for module_name, module in model.named_modules():
-        if hasattr(module, "weight") and getattr(module, "weight").ndim == 4:
-            wname = f"{module_name}.weight" if module_name else f"conv{i}.weight"
-            weights.append(write_tensor(root, wname, module.weight, normalize=True))
-            cout, cin, kh, kw = list(module.weight.shape)
-            out = f"x{i}"
-            ops.append({"kind":"conv2d", "name":f"conv{i}", "inputs":[prev, wname], "outputs":[out], "attrs":{"cout":str(cout), "kh":str(kh), "kw":str(kw), "pad_y":str(kh//2), "pad_x":str(kw//2)}})
-            if i != len(list(model.named_modules())) - 1:
-                act = f"x{i}_silu"
-                ops.append({"kind":"mp_silu", "name":f"silu{i}", "inputs":[out], "outputs":[act], "attrs":{}})
-                prev = act
-            else:
-                prev = out
-            i += 1
+    if conditioning_name:
+        prev = "model_input"
+        ops.append({"kind":"concat_channels", "name":"concat_conditioning", "inputs":["input", f"cond.{conditioning_name}"], "outputs":[prev], "attrs":{}})
+    conv_modules = [(module_name, module) for module_name, module in model.named_modules() if hasattr(module, "weight") and getattr(module, "weight").ndim == 4]
+    for i, (module_name, module) in enumerate(conv_modules):
+        wname = f"{module_name}.weight" if module_name else f"conv{i}.weight"
+        weights.append(write_tensor(root, wname, module.weight, normalize=True))
+        cout, cin, kh, kw = list(module.weight.shape)
+        out = f"x{i}"
+        ops.append({"kind":"conv2d", "name":f"conv{i}", "inputs":[prev, wname], "outputs":[out], "attrs":{"cout":str(cout), "kh":str(kh), "kw":str(kw), "pad_y":str(kh//2), "pad_x":str(kw//2)}})
+        if i != len(conv_modules) - 1:
+            act = f"x{i}_silu"
+            ops.append({"kind":"mp_silu", "name":f"silu{i}", "inputs":[out], "outputs":[act], "attrs":{}})
+            prev = act
+        else:
+            prev = out
     if not ops:
         ops.append({"kind":"identity", "name":"identity", "inputs":["input"], "outputs":["output"], "attrs":{}})
     else:
@@ -98,8 +108,8 @@ def main() -> None:
     coarse = load_model(args.coarse)
     base = load_model(args.base)
     decoder = load_model(args.decoder)
-    export_flat_conv_stack(coarse, out / "coarse_model.metalgraph", "coarse", 11, 6, 64, (1,))
-    export_flat_conv_stack(base, out / "base_model.metalgraph", "base", 5, 5, 64, (1,2,4,8,16))
+    export_flat_conv_stack(coarse, out / "coarse_model.metalgraph", "coarse", 6, 6, 64, (1,), conditioning_name="conditioning")
+    export_flat_conv_stack(base, out / "base_model.metalgraph", "base", 5, 5, 64, (1,), conditioning_name="coarse")
     export_flat_conv_stack(decoder, out / "decoder_model.metalgraph", "decoder", 6, 1, 512, (1,))
     print(f"Wrote Metal archives to {out}")
 

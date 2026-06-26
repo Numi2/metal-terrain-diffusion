@@ -14,9 +14,23 @@ public final class MetalContext {
         self.device = device
         self.commandQueue = q
         do {
-            self.library = try device.makeDefaultLibrary(bundle: .module)
+            self.library = try MetalContext.loadLibrary(device: device)
         } catch {
             throw TerrainDiffusionError.shaderLoadFailed(String(describing: error))
+        }
+    }
+
+    private static func loadLibrary(device: MTLDevice) throws -> MTLLibrary {
+        do {
+            return try device.makeDefaultLibrary(bundle: .module)
+        } catch {
+            guard let sourceURL = Bundle.module.url(forResource: "TerrainDiffusionKernels", withExtension: "metal") else {
+                throw error
+            }
+            let source = try String(contentsOf: sourceURL, encoding: .utf8)
+            let options = MTLCompileOptions()
+            options.languageVersion = .version2_4
+            return try device.makeLibrary(source: source, options: options)
         }
     }
 
